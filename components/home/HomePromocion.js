@@ -1,9 +1,17 @@
 import React from 'react'
+import HomePromocionResponsive from './utils/HomePromocionResponsive'
 
 function HomePromocion() {
     return (
+       
+<div>
+    <div className="d-block d-sm-block d-lg-none ">
+         <HomePromocionResponsive/>
+    </div>    
+
+       
     <div style={{overflow:"hidden"}}>     
-        <div className="home-promocion-bg" style={{ 
+        <div className="home-promocion-bg d-none d-sm-none d-lg-block" style={{ 
             backgroundImage: `url("./img/home/home-promocion.jpg")`,
             backgroundPosition: "center",
             height: "70vh",
@@ -21,7 +29,7 @@ function HomePromocion() {
 
                     <div className="row ">
                         <div className="col-lg-5">
-                            <h1 style={{fontSize:"50px"}}>Everything For Pet</h1>
+                            <h1 className="home-promocion-h1" style={{fontSize:"50px"}}>Everything For Pet</h1>
                         </div>
                     </div>
 
@@ -44,7 +52,7 @@ function HomePromocion() {
            </div>   
         </div>     
     </div>
-
+</div>
     )
 }
 

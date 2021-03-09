@@ -22,7 +22,7 @@ class Modal extends React.Component {
       <div>
         <VideoModal channel='youtube' isOpen={this.state.isOpen} videoId='tkzwXX53qQ8' onClose={() => this.setState({isOpen: false})} />
         <div className="row"> 
-            <div className="col-lg-12">
+            <div className="col-lg-12 col-lg-6 col-md-12 col-12 col-sm-12">
                 <div className="welcome_video">
                     <img src="./img/home/home-video.jpg" className="img-fluid" width="600"/>
                    

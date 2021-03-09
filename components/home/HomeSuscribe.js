@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeSuscribe() {
     return (
-        <div className="container" style={{marginTop:"100px"}}>
+        <div className="container " style={{marginTop:"60px"}}>
             <div className="row">
                 <div className="col-lg-6">
                     <img className="img-fluid" src="./img/home/home-suscribe.jpg"/>
