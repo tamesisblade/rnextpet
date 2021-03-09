@@ -6,7 +6,7 @@ function SliderHome() {
         <div>
      
        
-     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+     <div id="carouselExampleIndicators"  className="carousel slide" data-bs-ride="carousel">
 
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
@@ -14,9 +14,9 @@ function SliderHome() {
          
         </div>
 
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="./img/home/fondohome.jpg" className="d-block w-100" alt="..." />
+        <div className="carousel-inner" >
+          <div className="carousel-item active " >
+            <img src="./img/home/fondohome.jpg" className="d-block w-100 home-slider-img"  alt="..." />
             <div className="carousel-caption d-none d-md-block ">
 
                  <div className="word-slider" style={{width:"200px", position:"relative",bottom:"120px",right:"50px"}}>
@@ -35,9 +35,10 @@ function SliderHome() {
                 </div>
             </div>
           </div>
+
           <div className="carousel-item">
-            <img src="./img/home/fondohome2.jpg" className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block ">
+            <img src="./img/home/fondohome2.jpg" className="d-block w-100 home-slider-img" alt="..." />
+            <div className="carousel-caption d-none d-sm-none d-md-block ">
               
                 <div className="word-slider2 " style={{width:"200px", position:"relative",bottom:"110px",left:"850px"}}>
                         <p style={{fontSize:"18px"}}>Sale 25% Off</p>

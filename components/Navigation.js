@@ -5,8 +5,8 @@ import Menu from './home/Menu'
 
 function Navigation() {
     return (
-       <div>
-           <div className="row">
+       <div >
+           <div className="row" style={{background:`rgba(249,248,227,0.5)`}}>
            
                 <div className="col-lg-3">
 
