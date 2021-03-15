@@ -18,7 +18,7 @@ function SliderHome() {
        {/*HOME SLIDER RESPONSIVE*/}
         <HomeSliderResponsive/>
        {/*END HOME SLIDER RESPONSIVE*/}
-        <div className="carousel-inner d-none d-sm-none" >
+        <div className="carousel-inner d-none d-sm-none d-md-block d-lg-block" >
           <div className="carousel-item active " >
             <img src="./img/home/fondohome.jpg" className="d-block w-100 home-slider-img"  alt="..." />
             <div className="carousel-caption d-none d-md-block ">

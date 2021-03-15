@@ -226,6 +226,129 @@ a {
 	
 	/*END HOME ANIMAL*/
 
+
+	/*HOME PRODUCT*/
+	.home-product-menu{
+		font-size: 18px;
+		margin: 0px 20px;
+		transition: all .3s linear;
+		transform-origin: center center;
+		object-fit: cover;
+		border:none;
+		background: none;
+	}
+	.home-product-menu:hover {
+		border-bottom: 3px solid #000;
+	}
+	.home-product-title{
+		padding-left:10px;
+	}
+    .home-product-title:hover{
+		color:#caa381;
+		
+	}
+	.home-product-price{
+		
+		padding-left:10px;
+		color: orange;
+	}
+
+	.home-product-menu-image{
+		cursor: pointer;
+	}
+	.home-product-menu-image:hover{
+		border:orange 2px solid;
+	}		
+
+
+		/*CARD PRODUCT*/
+		.home-product-card-container {
+		
+			position: relative;
+			z-index: 10;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			
+		  }
+		  
+		  .home-product-card-container .card1 {
+			
+		    
+			display: flex;
+		
+	
+		
+		  }
+		 		  
+		  
+		  
+		  .home-product-card-container .card1 .content {
+		   
+			position: relative;
+			right: 4px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+			transition: 0.5s ease-in-out;
+			opacity: 1;
+			visibility: hidden;
+		  }
+		  
+		  .home-product-card-container .card1:hover .content {
+			opacity: 1;
+			visibility: visible;
+		  }
+		 
+		
+		  .size svg {
+			transition: .4s ease;
+			margin: 10px 0px;
+			
+
+
+		  }
+		  
+		  .size svg:hover {
+			transform: translate(-0px, -0px) rotate(-5deg) scale(1.5);
+			
+			pointer-events: visible;
+			background: orange;
+			border-radius: 50% ;
+		
+		  }
+		  .home-product-image{
+			transition: all .8s linear;
+			transform-origin: center center;
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+		}
+		.home-product-image:hover{
+		
+			transform: scale(1.04);
+		
+			
+		}
+		.home-product-card-icon{
+		background-color: white;
+		border: 1px solid #ccc;
+		border-radius: 50%;
+		padding: 10px;
+		}
+		.home-product-card-icon:hover{
+			background-color: orange;
+			color: white;
+		}
+		
+		  
+		  
+		  
+		/*END CARD PRODUCT*/
+	/*END HOME PRODUCT*/
+
 	/* HOME PROMOCION*/
 	.home-promocion-bg{
 		transition: all .9s linear;

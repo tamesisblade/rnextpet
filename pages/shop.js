@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Container from '../components/Container'
 function shop() {
     return (
-        <div>
-            shop
-        </div>
+           
+      <Container>
+          </Container>
     )
 }
 

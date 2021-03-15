@@ -6,8 +6,11 @@ import Welcome from '../components/home/Welcome'
 import HomeAnimal from '../components/home/HomeAnimal'
 import HomePromocion from '../components/home/HomePromocion'
 import HomeSuscribe from '../components/home/HomeSuscribe'
+import Products from '../components/home/Products'
 
 export default function Home() {
+ 
+
   return (
 
     <div className={styles.container}>
@@ -18,6 +21,7 @@ export default function Home() {
             <SliderHome/> 
             <Welcome/> 
             <HomeAnimal/>
+            <Products/>
             <HomePromocion/>
             <HomeSuscribe/>          
           
